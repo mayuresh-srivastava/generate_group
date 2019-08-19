@@ -1,0 +1,22 @@
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-half">
+      <% @groups.each do |group| %>
+        <div class="box">
+          <article class="media">
+            <div class="media-content">
+              <div class="content">
+                <p><%= t('group_name') %>&nbsp;&nbsp;<%= group.name %></p>
+                <p><%= t('group_desc') %>&nbsp;&nbsp;<%= group.description %></p>
+                <p><%= t('gathering_schedule') %>&nbsp;&nbsp;<%= group.gathering_date %></p>
+                <p><%= t('group_status') %>&nbsp;&nbsp;<%= group.status&.capitalize %></p>
+              </div>
+            </div>
+          </article>
+        </div>
+      <% end if @groups.present? %>
+      </div>
+    </div>
+  </div>
+</section>

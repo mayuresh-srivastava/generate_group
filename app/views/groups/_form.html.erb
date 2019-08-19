@@ -1,0 +1,15 @@
+<%= simple_form_for(@group) do |f| %>
+<%= f.error_notification %>
+<div class="field">
+  <div class="control">
+  <%= f.input :name, required: true, input_html: { class: "input"}, wrapper: false, label_html: {class: "label"}, placeholder: 'Group name', autofocus: true %>
+  </div>
+
+  <div class="control">
+    <%= f.input :description, input_html: { class: "textarea"}, wrapper: false, label_html: {class: "label"}, placeholder: 'Group description' %>
+  </div>
+
+  <%= f.input :gathering_date, as: :string, input_html: {type: :date}, wrapper: false, label_html: {class: "label"}%>
+</div>
+<%= f.button :submit, 'Create group', class: "button is-info" %>
+<% end %>
