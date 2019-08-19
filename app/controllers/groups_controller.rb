@@ -4,7 +4,7 @@ class GroupsController < ApplicationController
   before_action :set_group, only: [:invite, :invitation_response]
 
   def index
-    @groupes = Group.all.order(created_at: :desc)
+    @groups = Group.all.order(created_at: :desc)
     @group = Group.new
   end
 

@@ -28,7 +28,7 @@
                 <tr>
                   <td align="center">
                     <h4 style="font-size: 16px; color: #333; font-family: Arial; margin-bottom: 10px; margin-top: 10px;"><%= t('gathering_schedule') %></h4>
-                    <p style="font-size: 14px; color: #777; font-family: Arial; margin-bottom: 20px;"><%= t('gathering_date') %> <span style="color: #4fa399;" class="date"><%= @gathering_date.strftime('%d-%m-%Y') %></span></p>
+                    <p style="font-size: 14px; color: #777; font-family: Arial; margin-bottom: 20px;"><%= t('gathering_date') %> <span style="color: #4fa399;" class="date"><%= @gathering_date.to_date.strftime('%d-%m-%Y') %></span></p>
                   </td>
                 </tr>
                 

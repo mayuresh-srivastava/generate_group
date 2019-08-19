@@ -8,6 +8,6 @@ class GroupWorker < MainWorker
   private
 
   def send_group_status_mail(data)
-    GroupMailer.send_group_status(data['user'], data['batch'], data['status']).deliver
+    GroupMailer.send_group_status(data['user'], data['group'], data['status']).deliver
   end
 end
