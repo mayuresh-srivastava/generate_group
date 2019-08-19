@@ -40,9 +40,9 @@ en:
   gathering_schedule: 'Scheduled on:'
   gathering_date: 'Date:'
   invited_by: You have been invited by
-  group_initiated_subject: '%{batch_name} Invitation @ %{gathering_date}'
-  group_formed_subject: '%{batch_name} Formed @ %{gathering_date}'
-  group_declined_subject: '%{batch_name} Declined @ %{gathering_date}'
+  group_initiated_subject: '%{group_name} Invitation @ %{gathering_date}'
+  group_formed_subject: '%{group_name} Formed @ %{gathering_date}'
+  group_declined_subject: '%{group_name} Declined @ %{gathering_date}'
   accept_decline_invite: 'Accept/Decline Invite'
   gethering_availability: Are you available for gathering?
   thanks: Thanks for your response.

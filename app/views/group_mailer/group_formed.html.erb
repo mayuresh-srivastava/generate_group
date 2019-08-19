@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body style="margin: 30px 0; padding: 0; font-family: Arial;">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+      <td>
+        <table align="center" border="0" cellpadding="0" cellspacing="0" width="660" style="border-collapse: collapse; background-color: #fff; border: solid 1px #ccc;">
+          <tr>
+            <td style="padding: 30px 15px;">
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td align="center">
+                    <h1 style="font-size: 24px; color: #333; font-family: Arial; margin-top: 30px;"><%= t('form_group') %></h1>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    <h4 style="font-size: 16px; color: #333; font-family: Arial; margin-bottom: 10px; margin-top: 10px;"><%= t('group_name') %></h4>
+                    <p style="font-size: 13px; color: #777; font-family: Arial; margin-bottom: 20px;"><%= @group_name %></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    <h4 style="font-size: 16px; color: #333; font-family: Arial; margin-bottom: 10px; margin-top: 10px;"><%= t('gathering_schedule') %></h4>
+                    <p style="font-size: 14px; color: #777; font-family: Arial; margin-bottom: 20px;"><%= t('gathering_date') %> <span style="color: #4fa399;" class="date"><%= @gathering_date.strftime('%d-%m-%Y') %></span></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
