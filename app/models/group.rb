@@ -4,4 +4,6 @@ class Group < ApplicationRecord
   validates :name, :gathering_date, presence:true
 
   enum status: { initiated: 'initiated', formed: 'formed', declined: 'declined' }
+
+  after_commit :send_mail_to_users
 end

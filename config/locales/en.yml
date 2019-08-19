@@ -30,4 +30,21 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  new_group_request: New group request has been initiated and employees have been notified.
+  join_group: You have been invited to join group.
+  form_group: Your group formation request has been completed.
+  decline_group: Your group formation request has been declined.
+  group_name: 'Group name:'
+  group_desc: 'Group description:'
+  group_status: 'Group status:'
+  gathering_schedule: 'Scheduled on:'
+  gathering_date: 'Date:'
+  invited_by: You have been invited by
+  group_initiated_subject: '%{batch_name} Invitation @ %{gathering_date}'
+  group_formed_subject: '%{batch_name} Formed @ %{gathering_date}'
+  group_declined_subject: '%{batch_name} Declined @ %{gathering_date}'
+  accept_decline_invite: 'Accept/Decline Invite'
+  gethering_availability: Are you available for gathering?
+  thanks: Thanks for your response.
+  sorry: Sorry, you are late!.
+  new_group: Create a new group
