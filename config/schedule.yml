@@ -1,0 +1,4 @@
+daily_digest:
+ cron: '25 18 * * *' # Everyday UTC @18:25 -- IST @11:55 PM
+ class: 'DigestWorker'
+ queue: daily_digest
