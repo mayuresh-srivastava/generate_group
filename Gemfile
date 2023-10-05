@@ -63,5 +63,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bulma-rails', '~> 0.7.5'
 gem 'simple_form', '~> 5.0'
 gem 'devise', '~> 4.7'
-gem 'sidekiq', '~> 6.4'
+gem 'sidekiq', '~> 6.5'
 gem 'sidekiq-cron', '~> 1.1'
